@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-
 import ChatWindow from './ChatWindow/ChatWindow';
 
 class App extends Component {
@@ -9,8 +8,6 @@ class App extends Component {
       <div id="App__container">
         <ChatWindow />
       </div>
-    );
-  }
-}
+    );}}
 
 export default App;
